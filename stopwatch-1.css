@@ -1,0 +1,38 @@
+body{
+    background-image: url(watch1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    font-family: monospace;
+}
+.stopwatch{
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 3px;
+    color: snow;
+    border-radius: 60px;
+}
+button{
+    background-color: black;
+    color: blue;
+    border: 5px double red;
+    cursor:pointer;
+    text-decoration:none;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20px;
+    width: 150px
+}
+button:hover{
+    background-color: black;
+    color: wheat;
+}
+h1,p{
+    font-family: monospace;
+    font-size: 35px;
+    text-shadow: 4px 5px 6px blue;
+    color: whitesmoke;
+}
